@@ -5,50 +5,63 @@ var skillsContainer = document.getElementById('skillsContainer')
 
 
 var experienceData = [{
-        title: 'Full-stack Developer',
-        companyName: 'Urgent Solutions',
-        type: 'Part-time',
-        desc: 'PHP | Laravel | OOP | SQL | Api | Laravel Passport | RealTime | Javascript | VueJs | SPA | Element IO| Vuetify | Materialize | ChartsJs | HighCharts | Html | CSS | Sass',
-        date: {
-            from: 'Oct 2020',
-            to: 'Feb 2021'
-        },
+    title: 'Full-stack Developer',
+    companyName: 'Information Technology House',
+    type: 'Part-time',
+    desc: 'PHP | Laravel | OOP | SQL | Api | Laravel Passport | RealTime | Javascript | VueJs | SPA | Element IO| Vuetify | Materialize | ChartsJs | HighCharts | Html | CSS | Sass',
+    date: {
+        from: 'Sep 2020',
+        to: 'Mar 2021'
     },
-    {
-        title: 'Full-stack Developer',
-        companyName: 'MarMosque ',
-        type: 'Part-time',
-        desc: 'Social dating web application, PHP | Laravel | Sockets | Javascript | VueJs | Vuetify | Vuex | Router | RealTime Chat | Html | CSS | Sass',
-        date: {
-            from: 'Dec 2019',
-            to: 'Feb 2020'
-        },
+},
+{
+    title: 'Full-stack Developer',
+    companyName: 'MarMosque ',
+    type: 'Part-time',
+    desc: 'Social dating web application, PHP | Laravel | Sockets | Javascript | VueJs | Vuetify | Vuex | Router | RealTime Chat | Html | CSS | Sass',
+    date: {
+        from: 'Nov 2019',
+        to: 'June 2020'
     },
-    {
-        title: 'Web Designer',
-        companyName: 'SASBIT ',
-        type: 'Full-time',
-        desc: 'PHP | VanillaJs | HTML | CSS | CSS3 | Sass | JQuery',
-        date: {
-            from: 'June 2019',
-            to: 'Oct 2019'
-        },
+},
+{
+    title: 'Front-end Developer',
+    companyName: 'Oval Solutions',
+    type: 'Full-time',
+    desc: 'Javascript | VueJs | VanillaJs | SPA | API | HTML | CSS | CSS3 | Sass',
+    date: {
+        from: 'Sep 2019',
+        to: 'May 2020'
     },
-    {
-        title: 'Front-end Developer',
-        companyName: 'Engineeuis',
-        type: 'Full-time',
-        desc: 'Javascript | VueJs | VanillaJs | SPA | API | HTML | CSS | CSS3 | Sass',
-        date: {
-            from: 'Nov 2018',
-            to: 'June 2019'
-        },
+},
+{
+    title: 'Web Designer',
+    companyName: 'SASBIT ',
+    type: 'Full-time',
+    desc: 'PHP | VanillaJs | HTML | CSS | CSS3 | Sass | JQuery',
+    date: {
+        from: 'Nov 2018',
+        to: 'Aug 2019'
     },
+},
 
 ];
 
 
-var projectsData = [{
+var projectsData = [
+    {
+        link: 'https://wuzzufny.herokuapp.com/',
+        bg: 'bg1',
+        title: 'Wuzzufny',
+        desc: 'Search For a Job and Get hired Quickly'
+    },
+    {
+        link: 'https://mix-store.herokuapp.com/',
+        bg: 'bg4',
+        title: 'Mix Store',
+        desc: 'Buy your favourite clothes, just click here.'
+    },
+    {
         link: 'https://roaa-school.netlify.com/',
         bg: 'bg6',
         title: 'Roaa School',
@@ -72,105 +85,99 @@ var projectsData = [{
         title: 'Online Courses',
         desc: 'You can learn online now via this site, just choose your plan.'
     },
-    {
-        link: 'https://colthes-shop.netlify.com/',
-        bg: 'bg1',
-        title: 'Clothes',
-        desc: ' Buy the best styles that you look for it, just click here.'
-    },
-    {
-        link: 'https://mobiles-store.netlify.com/',
-        bg: 'bg4',
-        title: 'Shop',
-        desc: 'Buy your favourite moblie, just click here.'
-    }
+    // {
+    //     link: 'https://mobiles-store.netlify.com/',
+    //     bg: 'bg4',
+    //     title: 'Shop',
+    //     desc: 'Buy your favourite moblie, just click here.'
+    // }
 ]
 
 
 var skillsData = [{
-        title: 'laravel',
-        rate: '85'
-    },
-    {
-        title: 'vue',
-        rate: '90'
-    }, {
-        title: 'oop',
-        rate: '80'
-    },
-    {
-        title: 'php',
-        rate: '80'
-    },
-    {
-        title: 'vuex',
-        rate: '90'
-    },
-    {
-        title: 'sql',
-        rate: '90'
-    },
-    {
-        title: 'javascript',
-        rate: '85'
-    },
-    {
-        title: 'html5',
-        rate: '95'
-    },
-    {
-        title: 'css',
-        rate: '95'
-    },
-    {
-        title: 'css3',
-        rate: '95'
-    },
-    {
-        title: 'bootstrap',
-        rate: '95'
-    },
-    {
-        title: 'materialize',
-        rate: '90'
-    },
-    {
-        title: 'jquery',
-        rate: '90'
-    },
-    {
-        title: 'router',
-        rate: '85'
-    }, {
-        title: 'sockets',
-        rate: '90'
-    }, {
-        title: 'highcharts',
-        rate: '80'
-    }, {
-        title: 'pug.js',
-        rate: '85'
-    }, {
-        title: 'gulp.js',
-        rate: '80'
-    },
-    {
-        title: 'mvc',
-        rate: '90'
-    }, {
-        title: 'cms',
-        rate: '90'
-    }, {
-        title: 'git',
-        rate: '90'
-    }, {
-        title: 'cmd',
-        rate: '90'
-    },
-    {
-        title: 'restful.api',
-        rate: '90'
-    },
+    title: 'laravel',
+    rate: '85'
+},
+{
+    title: 'vue',
+    rate: '90'
+}, {
+    title: 'oop',
+    rate: '80'
+},
+{
+    title: 'php',
+    rate: '80'
+},
+{
+    title: 'vuex',
+    rate: '90'
+},
+{
+    title: 'sql',
+    rate: '90'
+},
+{
+    title: 'javascript',
+    rate: '85'
+},
+{
+    title: 'html5',
+    rate: '95'
+},
+{
+    title: 'css',
+    rate: '95'
+},
+{
+    title: 'css3',
+    rate: '95'
+},
+{
+    title: 'bootstrap',
+    rate: '95'
+},
+{
+    title: 'materialize',
+    rate: '90'
+},
+{
+    title: 'jquery',
+    rate: '90'
+},
+{
+    title: 'router',
+    rate: '85'
+}, {
+    title: 'sockets',
+    rate: '90'
+}, {
+    title: 'highcharts',
+    rate: '80'
+}, {
+    title: 'pug.js',
+    rate: '85'
+}, {
+    title: 'gulp.js',
+    rate: '80'
+},
+{
+    title: 'mvc',
+    rate: '90'
+}, {
+    title: 'cms',
+    rate: '90'
+}, {
+    title: 'git',
+    rate: '90'
+}, {
+    title: 'cmd',
+    rate: '90'
+},
+{
+    title: 'restful.api',
+    rate: '90'
+},
 ]
 
 for (let i = 0; i < skillsData.length; i++) {

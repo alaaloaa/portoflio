@@ -95,6 +95,7 @@ a {
   height: 200px;
   overflow: hidden !important;
   position: relative;
+
 }
 
 .over {
@@ -270,6 +271,9 @@ ul {
   }
 }
 @media screen and (max-width: 815px) {
+  .pro:hover::after {
+    width: 0
+  }
   .footer .connect li {
     position: relative;
     left: 38%;
@@ -277,9 +281,6 @@ ul {
 }
 
 @media screen and (max-width: 768px) {
-  .pro:hover::after {
-     width: 0
-   }
   .footer .connect li {
     position: relative;
     left: 36.3%;
