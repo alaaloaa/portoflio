@@ -127,8 +127,7 @@
               I'm Alaa a full-stack developer, I have been working with Laravel and VueJs for more than two years, I
               created many websites with them, I worked with many Vue.js packages like Vuex, Router, Data-tables,
               Dragging, Vuetify, Element io and Bootstrap-Vue, And many of Laravel Packages like Passport, Breeze,
-              Jetstream and Socialite. <br />
-              <a class="w3-text-teal" href="https://wuzzufny.herokuapp.com/">Laravel && Vue Project Check It</a>
+              Jetstream and Socialite.
               <br /><br />
 
               I always try to keep myself updated with modern technologies and concepts. I have ability to learn and
